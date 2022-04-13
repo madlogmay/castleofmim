@@ -29,17 +29,16 @@ tw-icon {
 :: Sidebar [footer]
 (append: ?SideBar)[\
 Sidebar
-[[Go Back->Start]]
+[[Back to start->Start]]
 ]
 
 :: Topbar [header]
-Header
 (set: $currentpassage to (passage:)'s name)
-# Half Guinea Press
+(set: $siteTitle to "Half Guinea Press")
+# $siteTitle
 ## $currentpassage
-<hr
-<br
-
+<hr>
+<br>
 
 ::StoryTitle
 Half Guinea Press

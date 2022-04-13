@@ -42,7 +42,7 @@ Half Guinea Press
 This is the first passage in a Twine game!
 
 [[This is a link|Next Passage]]
-[[Cerulean Henchman->(open-url:"https://red-panda-rogues.github.io/HalfGuineaPress/ceruleanhenchman.html")]]
+(link: "Cerulean Henchman")[(open-url:"https://red-panda-rogues.github.io/HalfGuineaPress/ceruleanhenchman.html")]
 
 
 :: Next Passage

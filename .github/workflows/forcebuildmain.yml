@@ -1,4 +1,4 @@
-name: Force Build
+name: Force Build Main Page
 
 on:
   workflow_dispatch:

@@ -29,10 +29,16 @@ tw-icon {
 :: Sidebar [footer]
 (append: ?SideBar)[\
 Sidebar
+[[Go Back-Start]]
 ]
 
 :: Topbar [header]
 Header
+(set: $currentpassage to (passage:)'s name)
+# Half Guinea Press
+## $currentpassage
+<hr
+<br
 
 
 ::StoryTitle
@@ -43,8 +49,128 @@ This is the first passage in a Twine game!
 
 [[This is a link|Next Passage]]
 (link: "Cerulean Henchman")[(open-url:"https://red-panda-rogues.github.io/HalfGuineaPress/ceruleanhenchman.html")]
+[[Campaign Game Session Layout->Campaign Game Session Layout]]
+[[MCBUYS Outline->MCBUYS Outline]]
 
 
 :: Next Passage
 The player just clicked a link to get here!
-[[Go Back->Start]]
+[[Go Back-Start]]
+
+:: Campaign Game Session Layout
+Campaign Story #:
+Story Act 1:
+Chapter 1:
+Session 1:
+Scene 1:
+Scene 2:
+Scene 3:
+Main Encounter:
+Secondary Encounter:
+Break:
+Session 2:
+Session 3:
+Chapter 2:
+Session 4:
+Session 5:
+Session 6:
+Chapter 3:
+Session 7:
+Session 8:
+Session 9:
+Story Act 2:
+Chapter 4:
+Session 10:
+Session 11:
+Session 12:
+Chapter 5:
+Session 13:
+Session 14:
+Session 15:
+Chapter 6:
+Session 16:
+Session 17:
+Session 18:
+Story Act 3:
+Chapter 7:
+Session 19:
+Session 20:
+Session 21:
+Chapter 8:
+Session 22:
+Session 23:
+Session 24:
+Chapter 9:
+Session 25:
+Session 26:
+Session 27:
+Denouement
+
+:: MCBUYS Outline
+Act 1 Orphan: Thematic Argument in Action/ Inciting Incident
+I don’t get no respect
+Plot point 1 meet hero/stakes character/villain
+Plot point 2 see hero's flaw in relation to the stakes character
+Plot point 3 meet villain or amplify what we know about villain
+Do you know what your trouble is
+Plot point 4 deflector slows hero or pulls them off the path
+Plot point 5 inciting incident, hero becomes emotionally involved
+Calls and busy signals
+Plot point 6 statement of hero's goal as it relates to stakes character or love interest, hero's problem is made clear to reader
+Plot point 7 a true or unintentional ally forces hero out of comfort zone
+Plot point 8 Hero is ready to move forward towards goal and/or stakes character but just can’t do it
+Plot point 9 Villain or Deflector conflict stops hero or threatens the emotional stakes
+Through the looking glass
+Plot point 10 Depth of feeling between hero and the stakes character or severity of the treat to the victims becomes evident
+Plot point 11 The deflector or Antagonist threatens to take stakes character from hero. Hero may or may not know it is happening
+Plot point 12 Hero decides he must act to save the stakes character
+
+Act 2 Wanderer: Thematic Question In Action
+Kick the dog
+Yes 1
+No 1
+Yes 2
+No 2
+Yes 3
+No 3
+Which way is up
+Yes 4
+No 4
+Yes 5
+No 5
+When life gives you lemon
+Yes 6
+No 6
+Yes 7
+No 7
+ 
+Act 2.5 Warrior: Thematic Question vs. Thematic Action
+ 
+Make lemonade
+Yes 8
+No 8
+Yes 9
+No 9
+Yes 10
+No 10
+Inside the whale
+Yes 11
+No 11
+Yes 12
+No 12
+Death and rebirth
+Yes 13(Third act solution)
+No 13
+Yes 14
+No 14
+ 
+
+Act 3 Martyr: Thematic Synthesis
+ 
+What’s the worst that can happen?
+Big Yes
+No
+Good guy versus bad guy over stakes
+Big No
+Final Yes
+Denouement

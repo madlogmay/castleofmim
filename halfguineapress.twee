@@ -29,7 +29,7 @@ tw-icon {
 :: Sidebar [footer]
 (append: ?SideBar)[\
 Sidebar
-[[Go Back-Start]]
+[[Go Back->Start]]
 ]
 
 :: Topbar [header]
@@ -55,7 +55,7 @@ This is the first passage in a Twine game!
 
 :: Next Passage
 The player just clicked a link to get here!
-[[Go Back-Start]]
+[[Go Back->Start]]
 
 :: Campaign Game Session Layout
 Campaign Story #:

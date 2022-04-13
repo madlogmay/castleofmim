@@ -6,6 +6,35 @@
     "start": "Start"
 }
 
+:: UserStylesheet [stylesheet]
+/*
+  Reposition the Sidebar 'footer' tagged passage.
+*/
+tw-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%; /* padding-right of the tw-story element. */
+  max-height: 100%;
+  margin-top: 5%; /* padding-top of the tw-story element. */
+  padding: 0 0.5em 0.5em 0.5em;
+  text-align: right;
+  background-color: transparent;
+}
+tw-icon {
+  text-align: right;
+  padding-right: 0.75em;
+}
+
+:: Sidebar [footer]
+(append: ?SideBar)[\
+Sidebar
+]
+
+:: Topbar [header]
+Header
+
+
 ::StoryTitle
 Half Guinea Press
 
@@ -13,7 +42,9 @@ Half Guinea Press
 This is the first passage in a Twine game!
 
 [[This is a link|Next Passage]]
+[[Cerulean Henchman->(open-url:"https://red-panda-rogues.github.io/HalfGuineaPress/ceruleanhenchman.html")]]
 
 
 :: Next Passage
 The player just clicked a link to get here!
+[[Go Back->Start]]

@@ -1,0 +1,21 @@
+::StoryData
+{
+    "ifid": "71A00E8C-ABBC-47DA-9F82-63465BA8A90B",
+    "format": "Harlowe",
+    "format-version": "3.2.3",
+    "start": "Start"
+}
+
+<!-- Comment line totally removed from HTML -->
+
+::StoryTitle
+The Cerulean Henchman
+
+:: Start
+This is the first passage in a Twine game!
+
+[[This is a link|Next Passage]]
+
+
+:: Next Passage
+The player just clicked a link to get here!

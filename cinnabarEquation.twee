@@ -1,0 +1,49 @@
+:: StoryData
+{
+"ifid": "FB83A044-A598-4813-A022-5ED4E7A92B67",
+"format": "Harlowe",
+"format-version": "3.2.3",
+"start": "Start"
+}
+
+:: StoryTitle
+The Cinnabar Equation
+  
+:: UserStylesheet [stylesheet]
+tw-sidebar
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 20%;
+max-height: 100%;
+margin-top: 5%;
+padding: 0 0.5em 0.5em 0.5em;
+text-align: right;
+background-color: transparent;
+}
+tw-icon 
+{
+text-align: right;
+padding-right: 0.75em;
+}
+
+:: Sidebar [footer]
+(append: ?SideBar) [\
+SideBar Text
+]
+
+:: Startup Passage [startup]
+  
+:: Topbar [header]
+Topbar Text
+<hr>
+<br>
+
+:: Start
+This is the Starting Passage
+[[Second Passage]]
+
+:: Second Passage
+This is the Second Passage
+[[First Passage|Start]]

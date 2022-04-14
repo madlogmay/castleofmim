@@ -34,6 +34,7 @@ Sidebar
 (link: "Cinnabar Equation")[(open-url:"https://red-panda-rogues.github.io/HalfGuineaPress/cinnabarequation.html")]
 [[Campaign Game Session Layout->Campaign Game Session Layout]]
 [[MCBUYS Outline->MCBUYS Outline]]
+[[Scene Template->Scene Template]]
 ]
 
 :: Topbar [header]
@@ -177,3 +178,24 @@ Good guy versus bad guy over stakes
 Big No
 Final Yes
 Denouement
+
+:: Scene Template
+Scene Name:
+Scene Purpose/Goal:
+Scene Question:
+Scene Location/Scope:
+Scene Description:
+Mood:
+Size:
+Lighting:
+Senses: (Sight, Sound, Smell, Tactile, Taste, Other Sense)
+Player Character Perspective:
+PC Context:
+PC Skills:(Passive/Active)
+Characters In Scene:
+Clues In Scene:
+Desired Outcome:
+Possible Outcomes:
+Success State:
+Fail State:
+Events In Scene:

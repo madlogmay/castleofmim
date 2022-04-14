@@ -30,13 +30,16 @@ tw-icon {
 (append: ?SideBar)[\
 Sidebar
 [[Back to start->Start]]
+(link: "Cerulean Henchman")[(open-url:"https://red-panda-rogues.github.io/HalfGuineaPress/ceruleanhenchman.html")]
+[[Campaign Game Session Layout->Campaign Game Session Layout]]
+[[MCBUYS Outline->MCBUYS Outline]]
 ]
 
 :: Topbar [header]
 (set: $currentpassage to (passage:)'s name)
 (set: $siteTitle to "Half Guinea Press")
-# $siteTitle
-## $currentpassage
+## $siteTitle
+### $currentpassage
 <hr>
 <br>
 

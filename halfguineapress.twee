@@ -21,7 +21,16 @@ tw-sidebar {
   text-align: right;
   background-color: transparent;
 }
-tw-icon {
+
+tw-icon.undo {
+  display: none;
+}
+
+tw-icon.redo {
+  display: none;
+}
+
+tw-icon.hover {
   display: none;
 }
 

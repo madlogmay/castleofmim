@@ -25,6 +25,12 @@ tw-icon {
   text-align: right;
   padding-right: 0.75em;
 }
+tw-sidebar tw-icon.redo {
+	display: none;
+}
+tw-sidebar tw-icon.undo {
+	display: none;
+}
 
 :: Sidebar [footer]
 (append: ?SideBar)[\

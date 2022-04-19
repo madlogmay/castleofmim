@@ -21,9 +21,17 @@ tw-sidebar {
   text-align: right;
   background-color: transparent;
 }
-tw-icon {
-  text-align: right;
-  padding-right: 0.75em;
+
+tw-icon.undo {
+  display: none;
+}
+
+tw-icon.redo {
+  display: none;
+}
+
+tw-icon.hover {
+  display: none;
 }
 
 :: Sidebar [footer]

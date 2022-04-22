@@ -27,6 +27,7 @@ tw-sidebar {
 :: Sidebar [footer]
 (append: ?SideBar)[\
 [[Back to start->Start]]
+[[Links]]
 [[Campaign Game Session Layout]]
 [[MCBUYS Outline]]
 [[Scene Template]]
@@ -34,8 +35,10 @@ tw-sidebar {
 [[Session Template]]
 [[The Lester Dent Master Fiction Plot]]
 [[Scene Template]]
-[[Links]]
 [[Average Room Sizes]]
+[[Organization Template]]
+[[DM Side Quest Page]]
+[[Plotline Template]]
 ]
 
 :: Topbar [header]
@@ -635,3 +638,69 @@ LIBRARY
 	Small - 12 x 12
 	Medium - 14 x 18
 	Large - 16 x 20
+
+:: Plotline Template
+Side Quest: (Name)
+The Overview: (Narative Description)
+Quests In This Series:
+Plot Overview: (DM Behind The Scene Description)
+Episode 1: (Episode Name)
+Main Events
+Event That Begins The Quest:
+Event That Ends The Quest:
+Scenes
+Scene 1:
+Scene 2:
+Scene 3:
+Important
+NPCs:
+Items:
+Locations:
+Episode 2: (Episode Name)
+Main Events
+Event That Begins The Quest:
+Event That Ends The Quest:
+Scenes
+Scene 1:
+Scene 2:
+Scene 3:
+Important
+NPCs:
+Items:
+Locations:
+Episode 3: (Episode Name)
+Main Events
+Event That Begins The Quest:
+Event That Ends The Quest:
+Scenes
+Scene 1:
+Scene 2:
+Scene 3:
+Important
+NPCs:
+Items:
+Locations:
+Maps:
+NPC/Monster Stat Blocks:
+
+:: DM Side Quest Page
+Side Quest Name:
+Quest Location:
+Main Events
+Optional Endings
+Important
+NPCs
+Items
+Hints/DCs
+
+:: Organization Template
+Organization Name:
+Location:
+Political Connections:
+Dark Dealings:
+Real Intent:
+Organization Leaders:
+Description:
+Interaction Notes:
+Personality Notes:
+

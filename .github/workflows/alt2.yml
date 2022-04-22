@@ -1,4 +1,4 @@
-name: Force Build Main Page
+name: alt2
 
 on:
   workflow_dispatch:

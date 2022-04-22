@@ -36,7 +36,7 @@ tw-icon.hover {
 
 :: Sidebar [footer]
 (append: ?SideBar)[\
-Sidebar
+Sidebar Is Awesome!!!
 [[Back to start->Start]]
 (link: "Cerulean Henchman")[(open-url:"https://red-panda-rogues.github.io/HalfGuineaPress/ceruleanhenchman.html")]
 (link: "Cinnabar Equation")[(open-url:"https://red-panda-rogues.github.io/HalfGuineaPress/cinnabarequation.html")]
@@ -62,13 +62,7 @@ Sidebar
 Half Guinea Press
 
 :: Start
-This is the first passage in a Twine game!
-
-[[This is a link|Next Passage]]
-(link: "Cerulean Henchman")[(open-url:"https://red-panda-rogues.github.io/HalfGuineaPress/ceruleanhenchman.html")]
-[[Campaign Game Session Layout->Campaign Game Session Layout]]
-[[MCBUYS Outline->MCBUYS Outline]]
-
+This is a test to see if this is displaying the right stuff
 
 :: Next Passage
 The player just clicked a link to get here!

@@ -22,24 +22,10 @@ tw-sidebar {
   background-color: transparent;
 }
 
-tw-icon.undo {
-  display: none;
-}
-
-tw-icon.redo {
-  display: none;
-}
-
-tw-icon.hover {
-  display: none;
-}
-
 :: Sidebar [footer]
 (append: ?SideBar)[\
 Sidebar Is Awesome!!!
 [[Back to start->Start]]
-(link: "Cerulean Henchman")[(open-url:"https://red-panda-rogues.github.io/HalfGuineaPress/ceruleanhenchman.html")]
-(link: "Cinnabar Equation")[(open-url:"https://red-panda-rogues.github.io/HalfGuineaPress/cinnabarequation.html")]
 [[Campaign Game Session Layout]]
 [[MCBUYS Outline]]
 [[Scene Template]]

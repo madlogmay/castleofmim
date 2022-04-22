@@ -20,6 +20,7 @@ tw-sidebar {
   padding: 0 0.5em 0.5em 0.5em;
   text-align: right;
   background-color: transparent;
+  font-size: medium;
 }
 
 :: Sidebar [footer]

@@ -21,7 +21,7 @@ tw-sidebar {
   text-align: right;
   background-color: transparent;
   font-size: medium;
-  line-height: 1.6;
+  line-height: normal;
 }
 
 :: Sidebar [footer]

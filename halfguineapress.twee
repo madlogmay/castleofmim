@@ -26,27 +26,20 @@ tw-sidebar {
 
 :: Sidebar [footer]
 (append: ?SideBar)[\
-[[Back to start->Start]]
-[[Links]]
 [[Campaign Game Session Layout]]
 [[MCBUYS Outline]]
-[[Scene Template]]
-[[Dime Novel Template]]
-[[Session Template]]
 [[The Lester Dent Master Fiction Plot]]
-[[Scene Template]]
 [[Average Room Sizes]]
-[[Organization Template]]
 [[DM Side Quest Page]]
-[[Plotline Template]]
 ]
 
 :: Topbar [header]
 (set: $currentpassage to (passage:)'s name)
 (set: $siteTitle to "Half Guinea Press")
-## $siteTitle
-### $currentpassage
+### $siteTitle
+#### $currentpassage
 <hr>
+[[Start]] [[Links]] [[Templates]]
 <br>
 
 ::StoryTitle
@@ -54,6 +47,13 @@ Half Guinea Press
 
 :: Start
 This is a test to see if this is displaying the right stuff
+
+:: Templates
+[[Scene Template]]
+[[Dime Novel Template]]
+[[Session Template]]
+[[Organization Template]]
+[[Plotline Template]]
 
 :: Next Passage
 The player just clicked a link to get here!

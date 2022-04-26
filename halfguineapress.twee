@@ -14,7 +14,7 @@ Half Guinea Press
 
 :: StoryDisplayTitle
 /* Sets the story's display title in the browser's titlebar and the UI bar (element ID: story-title). If omitted, the story title will be used instead. */
-### Half Guinea Press
+Half Guinea Press
 
 :: StoryBanner
 /* Used to populate the story's banner area in the UI bar (element ID: story-banner). */

@@ -14,14 +14,17 @@ Half Guinea Press
 
 :: StoryDisplayTitle
 /* Sets the story's display title in the browser's titlebar and the UI bar (element ID: story-title). If omitted, the story title will be used instead. */
+### Half Guinea Press
 
 :: StoryBanner
 /* Used to populate the story's banner area in the UI bar (element ID: story-banner). */
 
 :: StorySubtitle
 /* Sets the story's subtitle in the UI bar (element ID: story-subtitle). */
+Currently a random assortment of notes, thoughts, ideas, and other mental quandries...
 
 :: StoryAuthor
+by:
 Madilyn
 
 :: StoryCaption
@@ -42,11 +45,6 @@ Examples:
 [[Average Room Sizes]]
 [[DM Side Quest Page]]
 [[Next Passage]]
-[[Scene Template]]
-[[Session Template]]
-[[Dime Novel Template]]
-[[Plotline Template]]
-[[Organization Template]]
 [[Tag Names]]
 
 :: StoryShare

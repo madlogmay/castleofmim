@@ -1,0 +1,706 @@
+::StoryData
+{
+    "ifid": "F2277A49-95C9-4B14-AE66-62526089F861",
+    "format": "Harlowe",
+    "format-version": "3.2.3",
+    "start": "Start"
+}
+
+:: UserStylesheet [stylesheet]
+/*
+  Reposition the Sidebar 'footer' tagged passage.
+*/
+tw-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%; /* padding-right of the tw-story element. */
+  max-height: 100%;
+  margin-top: 5%; /* padding-top of the tw-story element. */
+  padding: 0 0.5em 0.5em 0.5em;
+  text-align: right;
+  background-color: transparent;
+  font-size: medium;
+  line-height: normal;
+}
+
+:: Sidebar [footer]
+(append: ?SideBar)[\
+[[Campaign Game Session Layout]]
+[[MCBUYS Outline]]
+[[The Lester Dent Master Fiction Plot]]
+[[Average Room Sizes]]
+[[DM Side Quest Page]]
+]
+
+:: Topbar [header]
+(set: $currentpassage to (passage:)'s name)
+(set: $siteTitle to "Half Guinea Press")
+### $siteTitle
+#### $currentpassage
+<hr>
+[[Start]] [[Links]] [[Templates]]
+<br>
+
+::StoryTitle
+Half Guinea Press
+
+:: Start
+This is a test to see if this is displaying the right stuff
+
+:: Templates
+[[Scene Template]]
+[[Dime Novel Template]]
+[[Session Template]]
+[[Organization Template]]
+[[Plotline Template]]
+
+:: Next Passage
+The player just clicked a link to get here!
+[[Go Back->Start]]
+
+:: Campaign Game Session Layout
+Campaign Story #:
+Story Act 1:
+Chapter 1:
+Session 1:
+Scene 1:
+Scene 2:
+Scene 3:
+Main Encounter:
+Secondary Encounter:
+Break:
+Session 2:
+Session 3:
+Chapter 2:
+Session 4:
+Session 5:
+Session 6:
+Chapter 3:
+Session 7:
+Session 8:
+Session 9:
+Story Act 2:
+Chapter 4:
+Session 10:
+Session 11:
+Session 12:
+Chapter 5:
+Session 13:
+Session 14:
+Session 15:
+Chapter 6:
+Session 16:
+Session 17:
+Session 18:
+Story Act 3:
+Chapter 7:
+Session 19:
+Session 20:
+Session 21:
+Chapter 8:
+Session 22:
+Session 23:
+Session 24:
+Chapter 9:
+Session 25:
+Session 26:
+Session 27:
+Denouement
+
+:: MCBUYS Outline
+Act 1 Orphan: Thematic Argument in Action/ Inciting Incident
+I don’t get no respect
+Plot point 1 meet hero/stakes character/villain
+Plot point 2 see hero's flaw in relation to the stakes character
+Plot point 3 meet villain or amplify what we know about villain
+Do you know what your trouble is
+Plot point 4 deflector slows hero or pulls them off the path
+Plot point 5 inciting incident, hero becomes emotionally involved
+Calls and busy signals
+Plot point 6 statement of hero's goal as it relates to stakes character or love interest, hero's problem is made clear to reader
+Plot point 7 a true or unintentional ally forces hero out of comfort zone
+Plot point 8 Hero is ready to move forward towards goal and/or stakes character but just can’t do it
+Plot point 9 Villain or Deflector conflict stops hero or threatens the emotional stakes
+Through the looking glass
+Plot point 10 Depth of feeling between hero and the stakes character or severity of the treat to the victims becomes evident
+Plot point 11 The deflector or Antagonist threatens to take stakes character from hero. Hero may or may not know it is happening
+Plot point 12 Hero decides he must act to save the stakes character
+
+Act 2 Wanderer: Thematic Question In Action
+Kick the dog
+Yes 1
+No 1
+Yes 2
+No 2
+Yes 3
+No 3
+Which way is up
+Yes 4
+No 4
+Yes 5
+No 5
+When life gives you lemon
+Yes 6
+No 6
+Yes 7
+No 7
+ 
+Act 2.5 Warrior: Thematic Question vs. Thematic Action
+ 
+Make lemonade
+Yes 8
+No 8
+Yes 9
+No 9
+Yes 10
+No 10
+Inside the whale
+Yes 11
+No 11
+Yes 12
+No 12
+Death and rebirth
+Yes 13(Third act solution)
+No 13
+Yes 14
+No 14
+ 
+
+Act 3 Martyr: Thematic Synthesis
+ 
+What’s the worst that can happen?
+Big Yes
+No
+Good guy versus bad guy over stakes
+Big No
+Final Yes
+Denouement
+
+:: Scene Template
+Scene Name:
+Scene Purpose/Goal:
+Scene Question:
+Scene Location/Scope:
+Scene Description:
+Mood:
+Size:
+Lighting:
+Senses: (Sight, Sound, Smell, Tactile, Taste, Other Sense)
+Player Character Perspective:
+PC Context:
+PC Skills:(Passive/Active)
+Characters In Scene:
+Clues In Scene:
+Desired Outcome:
+Possible Outcomes:
+Success State:
+Fail State:
+Events In Scene:
+
+:: The Lester Dent Master Fiction Plot
+This is a formula, a master plot, for any 6000 word pulp story. It has worked on adventure, detective, western and war-air. It tells exactly where to put everything. It shows definitely just what must happen in each successive thousand words.
+
+No yarn of mine written to the formula has yet failed to sell.
+
+The business of building stories seems not much different from the business of building anything else.
+
+Here's how it starts:
+
+A DIFFERENT MURDER METHOD FOR VILLAIN TO USE
+A DIFFERENT THING FOR VILLAIN TO BE SEEKING
+A DIFFERENT LOCALE
+A MENACE WHICH IS TO HANG LIKE A CLOUD OVER HERO
+
+One of these DIFFERENT things would be nice, two better, three swell. It may help if they are fully in mind before tackling the rest.
+
+A different murder method could be--different. Thinking of shooting, knifing, hydrocyanic, garroting, poison needles, scorpions, a few others, and writing them on paper gets them where they may suggest something. Scorpions and their poison bite? Maybe mosquitos or flies treated with deadly germs?
+
+If the victims are killed by ordinary methods, but found under strange and identical circumstances each time, it might serve, the reader of course not knowing until the end, that the method of murder is ordinary.
+
+Scribes who have their villain's victims found with butterflies, spiders or bats stamped on them could conceivably be flirting with this gag.
+
+Probably it won't do a lot of good to be too odd, fanciful or grotesque with murder methods.
+
+The different thing for the villain to be after might be something other than jewels, the stolen bank loot, the pearls, or some other old ones.
+
+Here, again one might get too bizarre.
+
+Unique locale? Easy. Selecting one that fits in with the murder method and the treasure--thing that villain wants--makes it simpler, and it's also nice to use a familiar one, a place where you've lived or worked. So many pulpateers don't. It sometimes saves embarrassment to know nearly as much about the locale as the editor, or enough to fool him.
+
+Here's a nifty much used in faking local color. For a story laid in Egypt, say, author finds a book titled "Conversational Egyptian Easily Learned," or something like that. He wants a character to ask in Egyptian, "What's the matter?" He looks in the book and finds, "El khabar, eyh?" To keep the reader from getting dizzy, it's perhaps wise to make it clear in some fashion, just what that means. Occasionally the text will tell this, or someone can repeat it in English. But it's a doubtful move to stop and tell the reader in so many words the English translation.
+
+The writer learns they have palm trees in Egypt. He looks in the book, finds the Egyptian for palm trees, and uses that. This kids editors and readers into thinking he knows something about Egypt.
+
+Here's the second installment of the master plot.
+
+Divide the 6,000 word yarn into four 1,500 word parts. In each 1,500 word part, put the following:
+
+FIRST 1,500 WORDS
+First line, or as near thereto as possible, introduce the hero and swat him with a fistful of trouble. Hint at a mystery, a menace or a problem to be solved--something the hero has to cope with.
+The hero pitches in to cope with his fistful of trouble. (He tries to fathom the mystery, defeat the menace, or solve the problem.)
+Introduce ALL the other characters as soon as possible. Bring them on in action.
+Hero's endevours land him in an actual physical conflict near the end of the first 1500 words.
+Near the end of first 1,500 words, there is a complete surprise twist in the plot development.
+SO FAR: Does it have SUSPENSE?
+
+Is there a MENACE to the hero?
+
+Does everything happen logically?
+
+At this point, it might help to recall that action should do something besides advance the hero over the scenery. Suppose the hero has learned the dastards of villains have seized somebody named Eloise, who can explain the secret of what is behind all these sinister events. The hero corners villains, they fight, and villains get away. Not so hot.
+
+Hero should accomplish something with his tearing around, if only to rescue Eloise, and surprise! Eloise is a ring-tailed monkey. The hero counts the rings on Eloise's tail, if nothing better comes to mind.
+
+They're not real. The rings are painted there. Why?
+
+SECOND 1,500 WORDS
+Shovel more grief onto the hero.
+Hero, being heroic, struggles, and his struggles lead up to:
+Another physical conflict.
+A surprising plot twist to end the 1,500 words.
+NOW: Does second part have SUSPENSE?
+
+Does the MENACE grow like a black cloud?
+
+Is the hero getting it in the neck?
+
+Is the second part logical?
+
+DON'T TELL ABOUT IT***Show how the thing looked. This is one of the secrets of writing; never tell the reader--show him. (He trembles, roving eyes, slackened jaw, and such.) MAKE THE READER SEE HIM.
+
+When writing, it helps to get at least one minor surprise to the printed page. It is reasonable to to expect these minor surprises to sort of inveigle the reader into keeping on. They need not be such profound efforts. One method of accomplishing one now and then is to be gently misleading. Hero is examining the murder room. The door behind him begins slowly to open. He does not see it. He conducts his examination blissfully. Door eases open, wider and wider, until--surprise! The glass pane falls out of the big window across the room. It must have fallen slowly, and air blowing into the room caused the door to open. Then what the heck made the pane fall so slowly? More mystery.
+
+Characterizing a story actor consists of giving him some things which make him stick in the reader's mind. TAG HIM.
+
+BUILD YOUR PLOTS SO THAT ACTION CAN BE CONTINUOUS.
+
+THIRD 1,500 WORDS
+Shovel the grief onto the hero.
+Hero makes some headway, and corners the villain or somebody in:
+A physical conflict.
+A surprising plot twist, in which the hero preferably gets it in the neck bad, to end the 1,500 words.
+DOES: It still have SUSPENSE?
+
+The MENACE getting blacker?
+
+The hero finds himself in a hell of a fix?
+
+It all happens logically?
+
+These outlines or master formulas are only something to make you certain of inserting some physical conflict, and some genuine plot twists, with a little suspense and menace thrown in. Without them, there is no pulp story.
+
+These physical conflicts in each part might be DIFFERENT, too. If one fight is with fists, that can take care of the pugilism until next the next yarn. Same for poison gas and swords. There may, naturally, be exceptions. A hero with a peculiar punch, or a quick draw, might use it more than once.
+
+The idea is to avoid monotony.
+
+ACTION: Vivid, swift, no words wasted. Create suspense, make the reader see and feel the action.
+
+ATMOSPHERE: Hear, smell, see, feel and taste.
+
+DESCRIPTION: Trees, wind, scenery and water.
+
+THE SECRET OF ALL WRITING IS TO MAKE EVERY WORD COUNT.
+
+FOURTH 1,500 WORDS
+Shovel the difficulties more thickly upon the hero.
+Get the hero almost buried in his troubles. (Figuratively, the villain has him prisoner and has him framed for a murder rap; the girl is presumably dead, everything is lost, and the DIFFERENT murder method is about to dispose of the suffering protagonist.)
+The hero extricates himself using HIS OWN SKILL, training or brawn.
+The mysteries remaining--one big one held over to this point will help grip interest--are cleared up in course of final conflict as hero takes the situation in hand.
+Final twist, a big surprise, (This can be the villain turning out to be the unexpected person, having the "Treasure" be a dud, etc.)
+The snapper, the punch line to end it.
+HAS: The SUSPENSE held out to the last line?
+
+The MENACE held out to the last?
+
+Everything been explained?
+
+It all happen logically?
+
+Is the Punch Line enough to leave the reader with that WARM FEELING?
+
+Did God kill the villain? Or the hero?
+
+:: Session Template
+Session Name:
+Session Date:
+Campaign Name:
+Players Present:
+Session Starting Point:
+Session Purpose/Goal:
+Session Mood:
+Session Milestones:
+Introduced Characters:
+Recurring Characters:
+Plot Points:
+Scene 1:
+Scene 2:
+Scene 3:
+Main Encounter:
+Secondary Encounter:
+Break:
+
+:: Dime Novel Template
+4" x 6"
+Burnt Orange Cover
+100 pages
+Page 1
+Page 2
+Page 3
+Page 4
+Page 5
+Page 6
+Page 7
+Page 8
+Page 9
+Page 10
+Page 11
+Page 12
+Page 13
+Page 14
+Page 15
+Page 16
+Page 17
+Page 18
+Page 19
+Page 20
+Page 21
+Page 22
+Page 23
+Page 24
+Page 25
+Page 26
+Page 27
+Page 28
+Page 29
+Page 30
+Page 31
+Page 32
+Page 33
+Page 34
+Page 35
+Page 36
+Page 37
+Page 38
+Page 39
+Page 40
+Page 41
+Page 42
+Page 43
+Page 44
+Page 45
+Page 46
+Page 47
+Page 48
+Page 49
+Page 50
+Page 51
+Page 52
+Page 53
+Page 54
+Page 55
+Page 56
+Page 57
+Page 58
+Page 59
+Page 60
+Page 61
+Page 62
+Page 63
+Page 64
+Page 65
+Page 66
+Page 67
+Page 68
+Page 69
+Page 70
+Page 71
+Page 72
+Page 73
+Page 74
+Page 75
+Page 76
+Page 77
+Page 78
+Page 79
+Page 80
+Page 81
+Page 82
+Page 83
+Page 84
+Page 85
+Page 86
+Page 87
+Page 88
+Page 89
+Page 90
+Page 91
+Page 92
+Page 93
+Page 94
+Page 95
+Page 96
+Page 97
+Page 98
+Page 99
+Page 100
+
+:: Links
+<a href="https://nerdarchy.com/play-your-next-5e-dd-game-with-a-friendly-octopod-new-playable-race-and-feats/">https://nerdarchy.com/play-your-next-5e-dd-game-with-a-friendly-octopod-new-playable-race-and-feats/</a>
+<a href="http://www.maximumverbosity.net/twine/Illume/">http://www.maximumverbosity.net/twine/Illume/</a>
+<a href="http://www.mcdemarco.net/tools/scree/dotgraph/">http://www.mcdemarco.net/tools/scree/dotgraph/</a>
+<a href="https://twinelab.net/twine-resources/#/?id=tooling">https://twinelab.net/twine-resources/#/?id=tooling</a>
+<a href="http://adventures.longwelwind.net">http://adventures.longwelwind.net</a>
+<a href="https://www.wizardslaboratory.com/running-escape-the-oubliette/">https://www.wizardslaboratory.com/running-escape-the-oubliette/</a>
+<a href="https://www.goldstartool.com/">https://www.goldstartool.com/</a>
+<a href="https://www.wawak.com/">https://www.wawak.com/</a>
+<a href="https://www.ningbags.com/">https://www.ningbags.com/</a>
+<a href="https://moremeknow.com/">https://moremeknow.com/</a>
+<a href="https://sophiehoulden.com/twine/writingfantasy_guide.html">https://sophiehoulden.com/twine/writingfantasy_guide.html</a>
+<a href="http://www.mcdemarco.net/tools/scree/prepub/">http://www.mcdemarco.net/tools/scree/prepub/</a>
+<a href="http://www.mcdemarco.net/tools/scree/">http://www.mcdemarco.net/tools/scree/</a>
+<a href="https://azgaar.github.io/Armoria/">https://azgaar.github.io/Armoria/</a>
+<a href="https://azgaar.github.io/Fantasy-Map-Generator/">https://azgaar.github.io/Fantasy-Map-Generator/</a>
+<a href="https://www.gmbinder.com/share/-MAA83ZvYm1tTpNzAUfA">https://www.gmbinder.com/share/-MAA83ZvYm1tTpNzAUfA</a>
+<a href="https://www.gmbinder.com/">https://www.gmbinder.com/</a>
+<a href="https://blackcitadelrpg.com/">https://blackcitadelrpg.com/</a>
+<a href="https://dev.to/lazerwalker/using-data-to-improve-your-narrative-games-4g7o">https://dev.to/lazerwalker/using-data-to-improve-your-narrative-games-4g7o</a>
+<a href="https://dev.to/lazerwalker/a-modern-developer-s-workflow-for-twine-4imp">https://dev.to/lazerwalker/a-modern-developer-s-workflow-for-twine-4imp</a>
+<a href="https://www.optionalrule.com/2021/01/29/safety-consent-rpg-checklist/">https://www.optionalrule.com/2021/01/29/safety-consent-rpg-checklist/</a>
+<a href="https://slyflourish.com/">https://slyflourish.com/</a>
+<a href="https://snafuy.github.io/samepage2/">https://snafuy.github.io/samepage2/</a>
+<a href="https://www.gamesindustry.biz/articles/2019-10-16-diversity-isnt-only-skin-deep-accommodating-autistic-and-neurodiverse-people-opinion">https://www.gamesindustry.biz/articles/2019-10-16-diversity-isnt-only-skin-deep-accommodating-autistic-and-neurodiverse-people-opinion</a>
+<a href="https://nerdist.com/article/neuroscientist-opens-game-cafe-starts-building-better-brains/?amp">https://nerdist.com/article/neuroscientist-opens-game-cafe-starts-building-better-brains/?amp</a>
+<a href="https://www.berwickpartners.co.uk/what-we-think/leadership-insights/breaking-glass-ceilings-in-gaming-neurodiversity-12861/">https://www.berwickpartners.co.uk/what-we-think/leadership-insights/breaking-glass-ceilings-in-gaming-neurodiversity-12861/</a>
+<a href="https://halflinghobbies.com/tips-tricks/">https://halflinghobbies.com/tips-tricks/</a>
+<a href="https://prettier.io/">https://prettier.io/</a>
+<a href="https://defold.com/">https://defold.com/</a>
+<a href="https://yarh.io/">https://yarh.io/</a>
+<a href="https://cryptii.com/">https://cryptii.com/</a>
+<a href="https://substack.com/">https://substack.com/</a>
+<a href="https://www.outdoorgearlab.com/">https://www.outdoorgearlab.com/</a>
+<a href="https://www.beyondtabletop.com/">https://www.beyondtabletop.com/</a>
+<a href="https://www.vulgarlang.com/">https://www.vulgarlang.com/</a>
+<a href="https://playfab.com/">https://playfab.com/</a>
+<a href="https://catsanddice.com/">https://catsanddice.com/</a>
+<a href="https://fupping.com/">https://fupping.com/</a>
+<a href="https://describingwords.io/">https://describingwords.io/</a>
+<a href="https://relatedwords.org/">https://relatedwords.org/</a>
+<a href="https://www.sailrite.com/">https://www.sailrite.com/</a>
+<a href="https://shields.io/">https://shields.io/</a>
+<a href="http://quiltdata.com/">http://quiltdata.com/</a>
+<a href="https://www.heroku.com/">https://www.heroku.com/</a>
+<a href="https://www.toyosteel.jp/en/">https://www.toyosteel.jp/en/</a>
+<a href="https://countycomm.com/">https://countycomm.com/</a>
+<a href="https://towardsdatascience.com/how-to-get-started-with-social-network-analysis-6d527685d374">https://towardsdatascience.com/how-to-get-started-with-social-network-analysis-6d527685d374</a>
+<a href="http://www.orgnet.com/sna.html">http://www.orgnet.com/sna.html</a>
+<a href="https://www.abc.net.au/news/2021-01-30/children-with-autism-making-new-friends-with-dungeons-dragons/13104254">https://www.abc.net.au/news/2021-01-30/children-with-autism-making-new-friends-with-dungeons-dragons/13104254</a>
+<a href="https://www.polygon.com/22527706/dungeons-dragons-autistic-autism-dungeon-master-essay">https://www.polygon.com/22527706/dungeons-dragons-autistic-autism-dungeon-master-essay</a>
+<a href="https://www.altogetherautism.org.nz/dungeons-dragons-and-autism/">https://www.altogetherautism.org.nz/dungeons-dragons-and-autism/</a>
+<a href="https://thejournal.com/articles/2015/02/18/beyond-programming-the-power-of-making-games.aspx">https://thejournal.com/articles/2015/02/18/beyond-programming-the-power-of-making-games.aspx</a>
+<a href="https://geekandsundry.com/rpg-therapy-for-kids-is-a-real-thing-and-it-works/">https://geekandsundry.com/rpg-therapy-for-kids-is-a-real-thing-and-it-works/</a>
+<a href="https://www.kentlandspsychotherapy.com/tabletop-role-playing-game-groups-for-tweens-teens-and-young-adults/">https://www.kentlandspsychotherapy.com/tabletop-role-playing-game-groups-for-tweens-teens-and-young-adults/</a>
+<a href="https://www.statesmanjournal.com/story/news/2018/07/15/mental-health-group-therapy-role-playing-games-heal-anxiety/786935002/">https://www.statesmanjournal.com/story/news/2018/07/15/mental-health-group-therapy-role-playing-games-heal-anxiety/786935002/</a>
+<a href="https://rpgtherapy.com/">https://rpgtherapy.com/</a>
+<a href="https://ntxcounseling.com/2021/01/11/therapeutic-benefits-of-role-playing-games/">https://ntxcounseling.com/2021/01/11/therapeutic-benefits-of-role-playing-games/</a>
+<a href="https://outschool.com/classes/social-skills-+-dandd-campaign-character-creation-teens-with-autism-adhd-anxiety-154zWSVf">https://outschool.com/classes/social-skills-+-dandd-campaign-character-creation-teens-with-autism-adhd-anxiety-154zWSVf</a>
+<a href="https://outschool.com/classes/intro-to-dungeons-and-dragons-for-students-with-autism-adhd-and-related-disorders-ksVDsLD5#abksrjs4u3">https://outschool.com/classes/intro-to-dungeons-and-dragons-for-students-with-autism-adhd-and-related-disorders-ksVDsLD5#abksrjs4u3</a>
+<a href="https://outschool.com/teach#abksrjs4u3">https://outschool.com/teach#abksrjs4u3</a>
+<a href="http://www.nappertime.com/dungeons-dragons-gaming-autism/">http://www.nappertime.com/dungeons-dragons-gaming-autism/</a>
+<a href="https://w3.rpgresearch.com/">https://w3.rpgresearch.com/</a>
+
+:: Average Room Sizes
+FOYER
+	Small - 6 x 6
+	Medium - 8 x 10
+	Large - 8 x 15
+ENTRY CLOSETS (24" minimum inside dimensions)
+	Small - 2 x 3
+	Medium - 2 x 4
+	Large - 2 x 6
+POWDER ROOM
+	Small - 4 x 4
+	Medium - 5 x 5
+	Large - 6 x 6
+GREAT ROOM
+	Small - 16 x 18
+	Medium - 18 x 24
+	Large - 20 x 28
+LIVING ROOM -
+	Small - 12 x 18
+	Medium - 16 x 20
+	Large - 22 x 28
+DINING ROOM
+	Small - 10 x 12
+	Medium - 12 x 16
+	Large - 14 x 18
+FAMILY ROOM
+	Small - 12 x 16
+	Medium - 14 x 20
+	Large - 16 x 24
+RECREATION ROOM
+	Small - 12 x 18
+	Medium - 16 x 24
+	Large - 18 x 30
+MEDIA ROOM
+	Small - 10 x 14
+	Medium - 12 x 16
+	Large - 14 x 20
+KITCHEN
+	Small - 5 x 10
+	Medium - 10 x 16
+	Large - 12 x 20
+EATING AREA
+	Small - 10 x 10
+	Medium - 12 x 12
+	Large - 16 x 16
+PANTRY
+	Small - 2 x 2
+	Medium - 3 x 4
+	Large - 4 x 6
+LAUNDRY
+	Small - 3 x 6
+	Medium - 6 x 8
+	Large - 8 x 10
+UTILTITY/MUD ROOM
+	Small - 5 x 6
+	Medium - 6 x 8
+	Large - 8 x 10
+REAR ENTRY CLOSETS (24" minimum inside dimensions)
+	Small - 2 x 3
+	Medium - 2 x 4
+	Large - 3 x 6
+GARAGE
+	Small - 12 x 20 (1 car)
+	Medium - 20 x 20 (2 car)
+	Large - 24 x 24 (2 car w/storage)
+WORKSHOP
+	Small - 6 x 8
+	Medium - 8 x 10
+	Large - 12 x 16
+STORAGE ROOM
+	Small - 6 x 6
+	Medium - 8 x 10
+	Large - 12 x 14
+HOME OFFICE / WORK ROOM
+	Small - 8 x 10
+	Medium - 12 x 14
+	Large - 14 x 18
+MASTER BED ROOM
+	Small - 12 x 14
+	Medium - 14 x 20
+	Large - 16 x 24
+WALK-IN CLOSETS (24" min inside dim)
+	Small - 4 x 6
+	Medium - 6 x 6
+	Large - 6 x 8
+MASTER BATHROOM
+	Small - 6 x 9
+	Medium - 8 x 12
+	Large - 10 x 16
+BEDROOMS
+	Small - 10 x 10
+	Medium - 12 x 12
+	Large - 14 x 16
+CLOSETS (24" min inside dim)
+	Small - 2 x 4
+	Medium - 2 x 6
+	Large - 2 x 8
+GUEST BEDROOM
+	Small - 10 x 12
+	Medium - 12 x 14
+	Large - 14 x 18
+GUEST CLOSETS (24" min inside dim)
+	Small - 2 x 3
+	Medium - 2 x 4
+	Large - 2 x 6
+FULL BATH
+	Small - 6 x 9
+	Medium - 7 x 10
+	Large - 8 x 12
+GUEST BATHROOM
+	Small - 5 x 9
+	Medium - 6 x 10
+	Large - 7 x 12
+LINEN CLOSETS (12" min inside dim)
+	Small - 1 x 3
+	Medium - 2 x 4
+	Large - 3 x 6
+DEN
+	Small - 10 x 10
+	Medium - 12 x 12
+	Large - 14 x 16
+STUDY
+	Small - 10 x 10
+	Medium - 12 x 12
+	Large - 14 x 16
+LIBRARY
+	Small - 12 x 12
+	Medium - 14 x 18
+	Large - 16 x 20
+
+:: Plotline Template
+Side Quest: (Name)
+The Overview: (Narative Description)
+Quests In This Series:
+Plot Overview: (DM Behind The Scene Description)
+Episode 1: (Episode Name)
+Main Events
+Event That Begins The Quest:
+Event That Ends The Quest:
+Scenes
+Scene 1:
+Scene 2:
+Scene 3:
+Important
+NPCs:
+Items:
+Locations:
+Episode 2: (Episode Name)
+Main Events
+Event That Begins The Quest:
+Event That Ends The Quest:
+Scenes
+Scene 1:
+Scene 2:
+Scene 3:
+Important
+NPCs:
+Items:
+Locations:
+Episode 3: (Episode Name)
+Main Events
+Event That Begins The Quest:
+Event That Ends The Quest:
+Scenes
+Scene 1:
+Scene 2:
+Scene 3:
+Important
+NPCs:
+Items:
+Locations:
+Maps:
+NPC/Monster Stat Blocks:
+
+:: DM Side Quest Page
+Side Quest Name:
+Quest Location:
+Main Events
+Optional Endings
+Important
+NPCs
+Items
+Hints/DCs
+
+:: Organization Template
+Organization Name:
+Location:
+Political Connections:
+Dark Dealings:
+Real Intent:
+Organization Leaders:
+Description:
+Interaction Notes:
+Personality Notes:
+

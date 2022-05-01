@@ -1,13 +1,13 @@
 ::StoryData
 {
-    "ifid": "F2277A49-95C9-4B14-AE66-62526089F861",
+    "ifid": "0CBA6930-7035-462E-A19F-5801A703E414",F2277A49-95C9-4B14-AE66-62526089F861",
     "format": "SugarCube",
     "format-version": "2.36.1",
     "start": "Start"
 }
 
 ::StoryTitle
-Half Guinea Press
+The Castle of Mim
 
 :: StoryInit
 /* Used for pre-story-start initialization tasks, like variable initialization (happens at the beginning of story initialization). Generates no output. */

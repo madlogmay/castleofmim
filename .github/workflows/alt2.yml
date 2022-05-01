@@ -1,4 +1,4 @@
-name: alt2
+name: force build
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ jobs:
         run: |
           go get github.com/tmedwards/tweego
           export PATH=$PATH:$(go env GOPATH)/bin
-          tweego halfguineapress.twee -o dist/index.html
+          tweego castleofmim.twee -o dist/index.html
                   
       - name: Deploy to Pages
         uses: peaceiris/actions-gh-pages@v3
